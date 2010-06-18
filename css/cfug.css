@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* Create error styles for bad coding */
+@import "BRAT.css";
+
+/* Basic Sitewide Styles*/
+body {
+	font-family: "Trebuchet MS", tahoma, sans-serif;
+	font-size: 10pt;
+	color: #888;
+}
+h6,h5,h4,h3,h2,h1 {
+	font-weight: bolder;
+	color: #327EB3;
+}
+h1 {font-size: 2.25em;}
+h2 {font-size: 1.75em;}
+h3 {font-size: 1.50em;}
+h4 {font-size: 1.25em;}
+h5 {font-size: 1.10em;}
+h6 {font-size: 1.00em;}
+
+tr {
+	vertical-align:top;
+}
+
+input {
+	font-family: "Trebuchet MS", tahoma, sans-serif;
+	font-size: 10pt;
+	color: #777;
+}
+input.button {
+	border-top: solid 1px #fff;
+	border-left: solid 1px #fff;
+	border-bottom: solid 1px #888;
+	border-right: solid 1px #888;
+	background-color: #eaeaea;
+	color: #555;
+	font-size: 0.8em;
+	padding: 0.35em;
+}
+input.text {
+	border-top: solid 1px #888;
+	border-left: solid 1px #888;
+	border-bottom: solid 1px #fff;
+	border-right: solid 1px #fff;
+	padding: 0.1em;
+}
+input[type="checkbox"] {
+	margin-right: .5em;
+	vertical-align: middle;
+}
+input[type="radio"] {
+	margin-right: .5em;
+	vertical-align: middle;
+}
+
+a {
+	color: #A8462F;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: none
+}
+
+.error {
+	color: #CC0000;
+}
+
+.pod {
+	border:thin solid #327EB3;
+}
+
+/* Box */
+.boxContent {
+	padding: 1.25em 1em 0.25em 1em;
+}
+
+/** Content **/
+
+#content p {
+	line-height: 1.5em;
+}
+#content h3 {
+	font-size: 1.0em;
+}
+#content h2 {
+	font-size: 1.25em;
+}
+#content ul {
+	padding-left: 1em;
+}
+#content li {
+	list-style-position: outside;
+	list-style-type:disc;
+	padding-left: 1em;
+	line-height: 1.5em;
+	padding-bottom: 0.5em;
+}
+#content li.currentevent {
+	font-weight: bolder;
+	font-size: 1.2em;
+	color: #327EB3;
+}
+#content blockquote {
+	padding: 1em;
+	border-left: solid 6px #AD4B33;
+}
+#content blockquote p {
+	line-height: 1.5em;
+}
+#content table {
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+#content table th {
+	text-align: left;
+	font-weight: bold;
+	padding: 0.5em;
+	color: #444;
+}
+#content table td {
+	padding: 0.5em;
+	line-height: 1.1em;
+	vertical-align: middle;
+}
+#content table tr.rowA td {
+	background-color: #efefef;
+	color: inherit;
+}
+#content table tr.rowB td {
+	background-color: #fafafa;
+	color: inherit;
+}
+#content strong {
+	font-weight: bolder;
+	color: #333333;
+}
